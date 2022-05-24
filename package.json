@@ -1,9 +1,11 @@
 {
   "name": "ts-jest-esm",
   "version": "1.0.0",
-  "description": "A project scaffold demonstrating Jest + TypeScript + ESModules working together",  
+  "description": "A project scaffold demonstrating Jest + TypeScript + ESModules working together",
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "npx tsc -p ./src",
     "test": "npx jest"
   },
   "repository": {

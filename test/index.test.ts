@@ -1,4 +1,3 @@
-import "../src/index";
 import { myFunction } from "../src/index";
 
 describe("myFunction", () => {
