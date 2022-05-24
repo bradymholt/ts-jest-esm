@@ -6,5 +6,12 @@ const config: Config.InitialOptions = {
   preset: "ts-jest",
   testEnvironment: "node",
   extensionsToTreatAsEsm: [".ts"],
+  globals: {
+    "ts-jest": {
+      diagnostics: {
+        ignoreCodes: ["TS151001"],
+      },
+    },
+  },
 };
 export default config;
