@@ -20,6 +20,6 @@ Ran all test suites.
 
 Notes:
 
-- `package.json` contains `"type": "module"`
+- `package.json` contains `{ "type": "module", ... }`
 - `src/tsconfig.json` contains `{ "target": "ES2018", "module": "ES2015", ... }`
 - `src/` and `test/` files are written in TypeScript and run as ESModules in Node.js
